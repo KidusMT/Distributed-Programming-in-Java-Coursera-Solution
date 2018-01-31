@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.coursera.distributed.SparkTest" time="13.857" tests="6" errors="6" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2017.2.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\KidusMT\OneDrive\DSP\miniproject_1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\KidusMT\OneDrive\DSP\miniproject_1"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\KidusMT\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.5\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\app\OracleDB\product\12.2.0\dbhome_1\bin;C:\app\KidusMTDB\product\12.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\dotnet\;C:\Users\KidusMT\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\KidusMT\AppData\Local\Programs\Python\Python36-32\;C:\Users\KidusMT\AppData\Local\Microsoft\WindowsApps;C:\Users\KidusMT\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\KidusMT"/>
+    <property name="user.timezone" value="Africa/Nairobi"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="KidusMT"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.5\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_102\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.2.5 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.5\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testIncreasingTwentyThousand" classname="edu.coursera.distributed.SparkTest" time="12.687">
+    <error type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException
+	at edu.coursera.distributed.PageRank.sparkPageRank(PageRank.java:52)
+	at edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:180)
+	at edu.coursera.distributed.SparkTest.testIncreasingTwentyThousand(SparkTest.java:261)
+</error>
+    <system-err><![CDATA[Running the PageRank algorithm for 5 iterations on a website graph of 20000 websites
+
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/11/27 22:31:26 INFO Remoting: Starting remoting
+17/11/27 22:31:27 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@192.168.1.11:60127]
+]]></system-err>
+  </testcase>
+  <testcase name="testUniformFiftyThousand" classname="edu.coursera.distributed.SparkTest" time="0.559">
+    <error message="Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:&#10;org.apache.spark.api.java.JavaSparkContext.&lt;init&gt;(JavaSparkContext.scala:59)&#10;edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)&#10;edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)&#10;edu.coursera.distributed.SparkTest.testIncreasingTwentyThousand(SparkTest.java:261)&#10;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;java.lang.reflect.Method.invoke(Method.java:498)&#10;junit.framework.TestCase.runTest(TestCase.java:164)&#10;junit.framework.TestCase.runBare(TestCase.java:130)&#10;junit.framework.TestResult$1.protect(TestResult.java:106)&#10;junit.framework.TestResult.runProtected(TestResult.java:124)&#10;junit.framework.TestResult.run(TestResult.java:109)&#10;junit.framework.TestCase.run(TestCase.java:120)&#10;junit.framework.TestSuite.runTest(TestSuite.java:230)&#10;junit.framework.TestSuite.run(TestSuite.java:225)&#10;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;java.lang.reflect.Method.invoke(Method.java:498)" type="org.apache.spark.SparkException"><![CDATA[org.apache.spark.SparkException: Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:
+org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)
+edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)
+edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)
+edu.coursera.distributed.SparkTest.testIncreasingTwentyThousand(SparkTest.java:261)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+junit.framework.TestCase.runTest(TestCase.java:164)
+junit.framework.TestCase.runBare(TestCase.java:130)
+junit.framework.TestResult$1.protect(TestResult.java:106)
+junit.framework.TestResult.runProtected(TestResult.java:124)
+junit.framework.TestResult.run(TestResult.java:109)
+junit.framework.TestCase.run(TestCase.java:120)
+junit.framework.TestSuite.runTest(TestSuite.java:230)
+junit.framework.TestSuite.run(TestSuite.java:225)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2257)
+	at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2239)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext$.assertNoOtherContextIsRunning(SparkContext.scala:2239)
+	at org.apache.spark.SparkContext$.setActiveContext(SparkContext.scala:2325)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:2197)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)
+	at edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)
+	at edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)
+	at edu.coursera.distributed.SparkTest.testUniformFiftyThousand(SparkTest.java:250)
+]]></error>
+    <system-err><![CDATA[Running the PageRank algorithm for 5 iterations on a website graph of 50000 websites
+
+]]></system-err>
+  </testcase>
+  <testcase name="testIncreasingFiftyThousand" classname="edu.coursera.distributed.SparkTest" time="0.306">
+    <error message="Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:&#10;org.apache.spark.api.java.JavaSparkContext.&lt;init&gt;(JavaSparkContext.scala:59)&#10;edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)&#10;edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)&#10;edu.coursera.distributed.SparkTest.testIncreasingTwentyThousand(SparkTest.java:261)&#10;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;java.lang.reflect.Method.invoke(Method.java:498)&#10;junit.framework.TestCase.runTest(TestCase.java:164)&#10;junit.framework.TestCase.runBare(TestCase.java:130)&#10;junit.framework.TestResult$1.protect(TestResult.java:106)&#10;junit.framework.TestResult.runProtected(TestResult.java:124)&#10;junit.framework.TestResult.run(TestResult.java:109)&#10;junit.framework.TestCase.run(TestCase.java:120)&#10;junit.framework.TestSuite.runTest(TestSuite.java:230)&#10;junit.framework.TestSuite.run(TestSuite.java:225)&#10;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;java.lang.reflect.Method.invoke(Method.java:498)" type="org.apache.spark.SparkException"><![CDATA[org.apache.spark.SparkException: Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:
+org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)
+edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)
+edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)
+edu.coursera.distributed.SparkTest.testIncreasingTwentyThousand(SparkTest.java:261)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+junit.framework.TestCase.runTest(TestCase.java:164)
+junit.framework.TestCase.runBare(TestCase.java:130)
+junit.framework.TestResult$1.protect(TestResult.java:106)
+junit.framework.TestResult.runProtected(TestResult.java:124)
+junit.framework.TestResult.run(TestResult.java:109)
+junit.framework.TestCase.run(TestCase.java:120)
+junit.framework.TestSuite.runTest(TestSuite.java:230)
+junit.framework.TestSuite.run(TestSuite.java:225)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2257)
+	at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2239)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext$.assertNoOtherContextIsRunning(SparkContext.scala:2239)
+	at org.apache.spark.SparkContext$.markPartiallyConstructed(SparkContext.scala:2312)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:91)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)
+	at edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)
+	at edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)
+	at edu.coursera.distributed.SparkTest.testIncreasingFiftyThousand(SparkTest.java:272)
+]]></error>
+    <system-err><![CDATA[Running the PageRank algorithm for 5 iterations on a website graph of 50000 websites
+
+]]></system-err>
+  </testcase>
+  <testcase name="testRandomFiftyThousand" classname="edu.coursera.distributed.SparkTest" time="0.161">
+    <error message="Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:&#10;org.apache.spark.api.java.JavaSparkContext.&lt;init&gt;(JavaSparkContext.scala:59)&#10;edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)&#10;edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)&#10;edu.coursera.distributed.SparkTest.testIncreasingTwentyThousand(SparkTest.java:261)&#10;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;java.lang.reflect.Method.invoke(Method.java:498)&#10;junit.framework.TestCase.runTest(TestCase.java:164)&#10;junit.framework.TestCase.runBare(TestCase.java:130)&#10;junit.framework.TestResult$1.protect(TestResult.java:106)&#10;junit.framework.TestResult.runProtected(TestResult.java:124)&#10;junit.framework.TestResult.run(TestResult.java:109)&#10;junit.framework.TestCase.run(TestCase.java:120)&#10;junit.framework.TestSuite.runTest(TestSuite.java:230)&#10;junit.framework.TestSuite.run(TestSuite.java:225)&#10;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;java.lang.reflect.Method.invoke(Method.java:498)" type="org.apache.spark.SparkException"><![CDATA[org.apache.spark.SparkException: Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:
+org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)
+edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)
+edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)
+edu.coursera.distributed.SparkTest.testIncreasingTwentyThousand(SparkTest.java:261)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+junit.framework.TestCase.runTest(TestCase.java:164)
+junit.framework.TestCase.runBare(TestCase.java:130)
+junit.framework.TestResult$1.protect(TestResult.java:106)
+junit.framework.TestResult.runProtected(TestResult.java:124)
+junit.framework.TestResult.run(TestResult.java:109)
+junit.framework.TestCase.run(TestCase.java:120)
+junit.framework.TestSuite.runTest(TestSuite.java:230)
+junit.framework.TestSuite.run(TestSuite.java:225)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2257)
+	at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2239)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext$.assertNoOtherContextIsRunning(SparkContext.scala:2239)
+	at org.apache.spark.SparkContext$.markPartiallyConstructed(SparkContext.scala:2312)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:91)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)
+	at edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)
+	at edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)
+	at edu.coursera.distributed.SparkTest.testRandomFiftyThousand(SparkTest.java:294)
+]]></error>
+    <system-err><![CDATA[Running the PageRank algorithm for 5 iterations on a website graph of 50000 websites
+
+]]></system-err>
+  </testcase>
+  <testcase name="testUniformTwentyThousand" classname="edu.coursera.distributed.SparkTest" time="0.086">
+    <error message="Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:&#10;org.apache.spark.api.java.JavaSparkContext.&lt;init&gt;(JavaSparkContext.scala:59)&#10;edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)&#10;edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)&#10;edu.coursera.distributed.SparkTest.testIncreasingTwentyThousand(SparkTest.java:261)&#10;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;java.lang.reflect.Method.invoke(Method.java:498)&#10;junit.framework.TestCase.runTest(TestCase.java:164)&#10;junit.framework.TestCase.runBare(TestCase.java:130)&#10;junit.framework.TestResult$1.protect(TestResult.java:106)&#10;junit.framework.TestResult.runProtected(TestResult.java:124)&#10;junit.framework.TestResult.run(TestResult.java:109)&#10;junit.framework.TestCase.run(TestCase.java:120)&#10;junit.framework.TestSuite.runTest(TestSuite.java:230)&#10;junit.framework.TestSuite.run(TestSuite.java:225)&#10;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;java.lang.reflect.Method.invoke(Method.java:498)" type="org.apache.spark.SparkException"><![CDATA[org.apache.spark.SparkException: Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:
+org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)
+edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)
+edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)
+edu.coursera.distributed.SparkTest.testIncreasingTwentyThousand(SparkTest.java:261)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+junit.framework.TestCase.runTest(TestCase.java:164)
+junit.framework.TestCase.runBare(TestCase.java:130)
+junit.framework.TestResult$1.protect(TestResult.java:106)
+junit.framework.TestResult.runProtected(TestResult.java:124)
+junit.framework.TestResult.run(TestResult.java:109)
+junit.framework.TestCase.run(TestCase.java:120)
+junit.framework.TestSuite.runTest(TestSuite.java:230)
+junit.framework.TestSuite.run(TestSuite.java:225)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2257)
+	at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2239)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext$.assertNoOtherContextIsRunning(SparkContext.scala:2239)
+	at org.apache.spark.SparkContext$.markPartiallyConstructed(SparkContext.scala:2312)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:91)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)
+	at edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)
+	at edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)
+	at edu.coursera.distributed.SparkTest.testUniformTwentyThousand(SparkTest.java:239)
+]]></error>
+    <system-err><![CDATA[Running the PageRank algorithm for 5 iterations on a website graph of 20000 websites
+
+]]></system-err>
+  </testcase>
+  <testcase name="testRandomTwentyThousand" classname="edu.coursera.distributed.SparkTest" time="0.058">
+    <error message="Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:&#10;org.apache.spark.api.java.JavaSparkContext.&lt;init&gt;(JavaSparkContext.scala:59)&#10;edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)&#10;edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)&#10;edu.coursera.distributed.SparkTest.testIncreasingTwentyThousand(SparkTest.java:261)&#10;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;java.lang.reflect.Method.invoke(Method.java:498)&#10;junit.framework.TestCase.runTest(TestCase.java:164)&#10;junit.framework.TestCase.runBare(TestCase.java:130)&#10;junit.framework.TestResult$1.protect(TestResult.java:106)&#10;junit.framework.TestResult.runProtected(TestResult.java:124)&#10;junit.framework.TestResult.run(TestResult.java:109)&#10;junit.framework.TestCase.run(TestCase.java:120)&#10;junit.framework.TestSuite.runTest(TestSuite.java:230)&#10;junit.framework.TestSuite.run(TestSuite.java:225)&#10;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;java.lang.reflect.Method.invoke(Method.java:498)" type="org.apache.spark.SparkException"><![CDATA[org.apache.spark.SparkException: Only one SparkContext may be running in this JVM (see SPARK-2243). To ignore this error, set spark.driver.allowMultipleContexts = true. The currently running SparkContext was created at:
+org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)
+edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)
+edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)
+edu.coursera.distributed.SparkTest.testIncreasingTwentyThousand(SparkTest.java:261)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+junit.framework.TestCase.runTest(TestCase.java:164)
+junit.framework.TestCase.runBare(TestCase.java:130)
+junit.framework.TestResult$1.protect(TestResult.java:106)
+junit.framework.TestResult.runProtected(TestResult.java:124)
+junit.framework.TestResult.run(TestResult.java:109)
+junit.framework.TestCase.run(TestCase.java:120)
+junit.framework.TestSuite.runTest(TestSuite.java:230)
+junit.framework.TestSuite.run(TestSuite.java:225)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2257)
+	at org.apache.spark.SparkContext$$anonfun$assertNoOtherContextIsRunning$1.apply(SparkContext.scala:2239)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext$.assertNoOtherContextIsRunning(SparkContext.scala:2239)
+	at org.apache.spark.SparkContext$.markPartiallyConstructed(SparkContext.scala:2312)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:91)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:59)
+	at edu.coursera.distributed.SparkTest.getSparkContext(SparkTest.java:38)
+	at edu.coursera.distributed.SparkTest.testDriver(SparkTest.java:170)
+	at edu.coursera.distributed.SparkTest.testRandomTwentyThousand(SparkTest.java:283)
+]]></error>
+    <system-err><![CDATA[Running the PageRank algorithm for 5 iterations on a website graph of 20000 websites
+
+]]></system-err>
+  </testcase>
+</testsuite>
